@@ -4,21 +4,15 @@ info:
   description: "이페이지는 제가 제작한 API의 사용 예시를 간단히 소개하는 곳입니다."
   version: "1.0.5"
   title: "INMD1 Make API"
-  termsOfService: "http://swagger.io/terms/"
-  contact:
-    email: "apiteam@swagger.io"
-  license:
-    name: "Apache 2.0"
-    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-host: "petstore.swagger.io"
 basePath: "/v2"
-tags:
-- name: "Ascode"
-  description: "ascode 관한 API 모음"
+servers:
 schemes:
 - "http"
+tags:
+- name: "/api/ascode/"
+  description: "ascode 관한 API 모음"
 paths:
-  /api/ascodelogin:
+  /api/ascode/ascodelogin:
     get:
       summary: AScode의 유저인가를 판정 할때 쓰임
       parameters:

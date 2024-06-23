@@ -6,7 +6,7 @@ const cheerio = require("cheerio");
 const qs = require("qs");
 
 /* ascod-login */
-router.get("/api/ascodelogin", function (req, res, next) {
+router.get("/api/ascode/ascodelogin", function (req, res, next) {
   const { id, password } = req.query;
   axios
     .get("http://ascode.org/csrf.php")
