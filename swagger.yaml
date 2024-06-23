@@ -4,12 +4,10 @@ info:
   description: "이페이지는 제가 제작한 API의 사용 예시를 간단히 소개하는 곳입니다."
   version: "1.0.5"
   title: "INMD1 Make API"
-basePath: "/v2"
 servers:
-schemes:
-- "http"
+- url: https://deusolved-testapi.swdev.kr
 tags:
-- name: "/api/ascode/"
+- name: "api/ascode/"
   description: "ascode 관한 API 모음"
 paths:
   /api/ascode/ascodelogin:
