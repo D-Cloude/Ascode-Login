@@ -1,8 +1,8 @@
 swagger: "2.0"
 info:
-  description: "이 페이지는 제가 제작한 API의 사용 예시를 간단히 소개하는 곳입니다."
+  description: "Deusolved에 필요한 API를 제작해서 설명을 여기로 합니다."
   version: "1.0.5"
-  title: "INMD1 Make API"
+  title: "Deusolved Api"
 servers:
   - url: https://deusolved-testapi.swdev.kr
 tags:
