@@ -13,7 +13,7 @@ paths:
     get:
       tags:
         - "api/ascode"
-      summary: "AScode의 유저인가를 판정 할때 쓰임"
+      summary: "AScode에 로그인 요청을 보내서 유저를 판정합니다."
       parameters:
         - name: id
           in: query
