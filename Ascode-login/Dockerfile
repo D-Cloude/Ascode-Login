@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:lts
 
 WORKDIR /usr/src/app
 
@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 3000
 
 # 애플리케이션 실행
-CMD ["node", "app.js"]
+CMD npm run start 

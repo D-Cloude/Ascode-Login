@@ -4,7 +4,7 @@ info:
   version: "1.0.5"
   title: "Deusolved Api"
 servers:
-  - url: https://deusolved-testapi.swdev.kr
+  - url: https://deusolved-testapi.swdev.kr/
 tags:
   - name: "api/ascode"
     description: "ascode 관한 API 모음"
