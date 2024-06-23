@@ -5,9 +5,9 @@ info:
   title: "Deusolved Api"
 servers:
   - url: https://deusolved-testapi.swdev.kr/ascode
-     description: Ascode 관련 APi 도메인
+    description: Ascode 관련 APi 도메인
   - url: https://deusolved-testapi.swdev.kr/login
-     description: 로그인관련 API 도메인
+    description: 로그인관련 API 도메인
   - url: https://deusolved-testapi.swdev.kr/judge
     description: 저지사이트 관련 API 도메인
 tags:
