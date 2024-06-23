@@ -1,18 +1,19 @@
----
 swagger: "2.0"
 info:
-  description: "이페이지는 제가 제작한 API의 사용 예시를 간단히 소개하는 곳입니다."
+  description: "이 페이지는 제가 제작한 API의 사용 예시를 간단히 소개하는 곳입니다."
   version: "1.0.5"
   title: "INMD1 Make API"
 servers:
-- url: https://deusolved-testapi.swdev.kr
+  - url: https://deusolved-testapi.swdev.kr
 tags:
-- name: "api/ascode/"
-  description: "ascode 관한 API 모음"
+  - name: "api/ascode"
+    description: "ascode 관한 API 모음"
 paths:
   /api/ascode/ascodelogin:
     get:
-      summary: AScode의 유저인가를 판정 할때 쓰임
+      tags:
+        - "api/ascode"
+      summary: "AScode의 유저인가를 판정 할때 쓰임"
       parameters:
         - name: id
           in: query
@@ -22,4 +23,3 @@ paths:
           in: query
           schema:
             type: string
-        
