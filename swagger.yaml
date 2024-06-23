@@ -1,18 +1,12 @@
 swagger: "2.0"
 info:
-  description: "Deusolved에 필요한 API를 제작해서 설명을 여기로 합니다."
+  description: "Deusolved에 필요한 API를 제작해서 설명을 여기로 합니다.\
+  API직접 테스트를 해보고 싶으면 API툴에서 직접 시도해보시기 바람니다."
   version: "1.0.5"
   title: "Deusolved Api"
-servers:
-  - url: https://deusolved-testapi.swdev.kr/ascode
-    description: Ascode 관련 APi 도메인
-  - url: https://deusolved-testapi.swdev.kr/login
-    description: 로그인관련 API 도메인
-  - url: https://deusolved-testapi.swdev.kr/judge
-    description: 저지사이트 관련 API 도메인
 tags:
   - name: "ascode"
-    description: "ascode 관한 API 모음"
+    description: "ascode 관한 API 모음 주소:https://deusolved.swdev.kr/ascode/"
 paths:
    /api/ascodelogin:
     get:
