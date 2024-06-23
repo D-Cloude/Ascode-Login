@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 3000
 
 # 애플리케이션 실행
-CMD ["node", "src/app.js"]
+CMD ["node", "app.js"]
