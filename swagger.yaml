@@ -5,16 +5,19 @@ info:
   title: "Deusolved Api"
 servers:
   - url: https://deusolved-testapi.swdev.kr/ascode/
+     description: Ascode 관련 APi 도메인
   - url: https://deusolved-testapi.swdev.kr/login/
+     description: 로그인관련 API 도메인
   - url: https://deusolved-testapi.swdev.kr/judge/
+    description: 저지사이트 관련 API 도메인
 tags:
-  - name: "api/ascode"
+  - name: "ascode"
     description: "ascode 관한 API 모음"
 paths:
-  /api/ascodelogin:
+  ascode/api/ascodelogin:
     get:
       tags:
-        - "api/ascode"
+        - "ascode"
       summary: "AScode에 로그인 요청을 보내서 유저를 판정합니다."
       parameters:
         - name: id
