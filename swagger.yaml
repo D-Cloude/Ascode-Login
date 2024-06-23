@@ -4,12 +4,14 @@ info:
   version: "1.0.5"
   title: "Deusolved Api"
 servers:
-  - url: https://deusolved-testapi.swdev.kr/
+  - url: https://deusolved-testapi.swdev.kr/ascode/
+  - url: https://deusolved-testapi.swdev.kr/login/
+  - url: https://deusolved-testapi.swdev.kr/judge/
 tags:
   - name: "api/ascode"
     description: "ascode 관한 API 모음"
 paths:
-  /api/ascode/ascodelogin:
+  /api/ascodelogin:
     get:
       tags:
         - "api/ascode"
